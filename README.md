@@ -79,16 +79,16 @@ header ul {
 }
 E assim por diante...
 
-Como Usar
+## Como Usar
 Clone este repositório em seu computador:
 git clone https://github.com/DEVSPBRADMSILVA/Ativ_WebsiteResponsivo_04_10_23.git
 Abra o arquivo index.html em um navegador da web para visualizar o website.
 
-Você também pode personalizar o conteúdo e os estilos editando o arquivo CSS/styles.css.
+### Você também pode personalizar o conteúdo e os estilos editando o arquivo CSS/styles.css.
 
-Pré-requisitos
+## Pré-requisitos
 Um navegador da web para visualizar o website.
-Autores
+## Autores
 Adilson_|_Renato
-Licença
+## Licença
 Este projeto está licenciado sob a Licença ALUNOS_FULLSTACK SENAC-SP LARGO_13 - consulte o arquivo LICENSE para obter detalhes.
