@@ -19,7 +19,7 @@ meu-website-interativo/
 │
 ├── index.html           # Arquivo HTML principal que define a estrutura da página.
 │
-├── CSS/
+├── css/
 │   ├── styles.css       # Arquivo CSS que contém os estilos para a página.
 │   └── ...              # Outros arquivos CSS, se necessário.
 │
