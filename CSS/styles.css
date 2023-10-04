@@ -1,0 +1,143 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3498db; /* Cor de fundo */
+    color: #fff;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para o cabeçalho */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 20px; /* Espaçamento interno para o conteúdo do cabeçalho */
+    display: flex; /* Usar flexbox para alinhar os elementos horizontalmente */
+    justify-content: space-between; /* Alinhar os elementos ao espaço entre eles */
+}
+
+/* Estilos para o h1 do cabeçalho */
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para a lista de navegação do cabeçalho */
+header ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Usar flexbox para alinhar os itens horizontalmente */
+}
+
+header ul li {
+    margin-right: 20px; /* Espaçamento entre os itens de navegação */
+}
+
+header ul li:last-child {
+    margin-right: 0; /* Remover margem do último item */
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+section {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #fff; /* Fundo das seções */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: transform 0.2s; /* Animação de escala */
+}
+
+section:hover {
+    transform: scale(1.05); /* Animação de escala ao passar o mouse */
+}
+
+aside {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.image-section {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    display: flex;
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+    align-items: center; /* Centraliza a imagem verticalmente */
+}
+
+.image-section img {
+    max-width: 100%; /* A imagem se ajustará automaticamente ao tamanho da seção */
+    height: auto;
+}
+
+/* ... outros estilos CSS ... */
+
+.table-section {
+    flex: 1;
+    background-color: #363636; /* Cor de fundo cinza escuro */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff; /* Cor de fundo branca */
+    border: 1px solid #ff0000; /* Borda vermelha */
+}
+
+.custom-table caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.custom-table th, .custom-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ff0000; /* Borda vermelha */
+}
+
+.custom-table th {
+    background-color: #ff0000; /* Cor de fundo vermelha para os cabeçalhos */
+    color: #fff; /* Texto branco nos cabeçalhos */
+}
+
+/* Estilize as células da coluna "Horas Consumidas" separadamente */
+.custom-table td:nth-child(3) {
+    font-weight: bold; /* Destaque o texto na coluna "Horas Consumidas" */
+}
