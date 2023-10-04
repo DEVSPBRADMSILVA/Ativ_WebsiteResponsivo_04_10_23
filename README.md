@@ -37,7 +37,7 @@ meu-website-interativo/
 
 ## Explicação do Código CSS
 
-### Reset de estilos padrão
+## Reset de estilos padrão
 
 O código a seguir redefine os estilos padrão de elementos HTML para garantir um comportamento consistente em diferentes navegadores:
 
@@ -79,6 +79,8 @@ header ul {
     display: flex; /* Usar flexbox para alinhar os itens horizontalmente */
 }
 E assim por diante...
+
+```
 
 ## Como Usar
 Clone este repositório em seu computador:
