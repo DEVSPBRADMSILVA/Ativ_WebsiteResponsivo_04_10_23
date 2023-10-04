@@ -14,12 +14,12 @@ Este website possui as seguintes seções:
 - Um rodapé com informações de direitos autorais.
 
 ## Estrutura de arrquivos:
-
+*{
 meu-website-interativo/
 │
 ├── index.html           # Arquivo HTML principal que define a estrutura da página.
 │
-├── css/
+├── CSS/
 │   ├── styles.css       # Arquivo CSS que contém os estilos para a página.
 │   └── ...              # Outros arquivos CSS, se necessário.
 │
