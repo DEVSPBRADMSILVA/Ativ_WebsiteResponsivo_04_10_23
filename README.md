@@ -14,6 +14,7 @@ Este website possui as seguintes seções:
 - Um rodapé com informações de direitos autorais.
 
 ## Estrutura de arrquivos:
+
 *{
 meu-website-interativo/
 │
@@ -87,8 +88,13 @@ Abra o arquivo index.html em um navegador da web para visualizar o website.
 ### Você também pode personalizar o conteúdo e os estilos editando o arquivo CSS/styles.css.
 
 ## Pré-requisitos
+
 Um navegador da web para visualizar o website.
+
 ## Autores
+
 Adilson_|_Renato
+
 ## Licença
+
 Este projeto está licenciado sob a Licença ALUNOS_FULLSTACK SENAC-SP LARGO_13 - consulte o arquivo LICENSE para obter detalhes.
