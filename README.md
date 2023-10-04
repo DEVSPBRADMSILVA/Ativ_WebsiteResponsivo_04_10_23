@@ -15,7 +15,7 @@ Este website possui as seguintes seções:
 
 ## Estrutura de arrquivos:
 
-*{
+```
 meu-website-interativo/
 │
 ├── index.html           # Arquivo HTML principal que define a estrutura da página.
@@ -35,6 +35,7 @@ meu-website-interativo/
 │
 └── ...                  # Outros arquivos ou diretórios, conforme necessário.
 
+```
 ## Explicação do Código CSS
 
 ## Reset de estilos padrão
