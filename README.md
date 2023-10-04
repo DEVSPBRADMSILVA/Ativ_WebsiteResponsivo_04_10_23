@@ -13,6 +13,27 @@ Este website possui as seguintes seções:
 - Uma barra lateral com links úteis.
 - Um rodapé com informações de direitos autorais.
 
+## Estrutura de arrquivos:
+
+meu-website-interativo/
+│
+├── index.html           # Arquivo HTML principal que define a estrutura da página.
+│
+├── CSS/
+│   ├── styles.css       # Arquivo CSS que contém os estilos para a página.
+│   └── ...              # Outros arquivos CSS, se necessário.
+│
+├── img/
+│   ├── img001.png       # Imagem usada na seção flexível.
+│   ├── img002.jpg       # Imagem usada na seção de imagem.
+│   └── ...              # Outras imagens, se necessário.
+│
+├── README.md            # Arquivo de documentação com informações sobre o projeto.
+│
+├── LICENSE              # Arquivo que contém informações sobre a licença do projeto.
+│
+└── ...                  # Outros arquivos ou diretórios, conforme necessário.
+
 ## Explicação do Código CSS
 
 ### Reset de estilos padrão
@@ -60,7 +81,7 @@ E assim por diante...
 
 Como Usar
 Clone este repositório em seu computador:
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/DEVSPBRADMSILVA/Ativ_WebsiteResponsivo_04_10_23.git
 Abra o arquivo index.html em um navegador da web para visualizar o website.
 
 Você também pode personalizar o conteúdo e os estilos editando o arquivo CSS/styles.css.
