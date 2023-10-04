@@ -31,8 +31,6 @@ meu-website-interativo/
 │
 ├── README.md            # Arquivo de documentação com informações sobre o projeto.
 │
-├── LICENSE              # Arquivo que contém informações sobre a licença do projeto.
-│
 └── ...                  # Outros arquivos ou diretórios, conforme necessário.
 
 ```
